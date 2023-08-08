@@ -38,8 +38,15 @@ body {
   line-height: 1;
   font-family: "Pretendard-Regular";
 }
-
+#wrap{
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  
+}
 header {
+  width: 1920px;
+  margin: 0 auto;
   background-color: rgba(217, 217, 217, 0.3);
 }
 
@@ -235,7 +242,10 @@ nav .inner .search button {
 
 
 /* ------------------------------------------------------------------------- */
-
+.sec01{
+  width: 1920px;
+  margin: 0 auto;
+}
 .sec01 .inner {
   width: 1440px;
   /* height: 760px; */
@@ -440,7 +450,11 @@ transition: 8s;
 .sec01 .inner .bg .items .item:hover .text p {
   font-weight: 600;
 }
+.sec2{
+  width: 1920px;
+  margin: 0 auto;
 
+}
 .sec2 .inner {
   width: 1440px;
   margin: 120px auto;
@@ -543,7 +557,11 @@ transition: 8s;
 }
 
 /* --------------------------🙌🙌sec3🙌🙌---------------------------- */
+.sec3{
+  width: 1920px;
+  margin: 0 auto;
 
+}
 .sec3 .inner {
   width: 1440px;
   margin: 0 auto;
