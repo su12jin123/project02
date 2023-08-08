@@ -17,6 +17,7 @@
             const progressContent = document.querySelector(".autoplay-progress span");
             var swiper = new Swiper(".mySwiper", {
                 spaceBetween: 30,
+                slidesOffsetBefore : -10,
                 centeredSlides: false,
                 autoplay: {
                     delay: 2500,
@@ -702,8 +703,10 @@
         <script>
             var swiper = new Swiper('.swiper', {
                 slidesPerView: 3,
-
+                slidesPerGroup : 3,
+                loopFillGroupWithBlank : true,
                 direction: getDirection(),
+                slidesOffsetBefore : -480,
                 centeredSlides: true,
                 autoplay: {
                     delay: 2500,
