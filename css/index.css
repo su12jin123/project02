@@ -37,6 +37,7 @@ body {
   color: #333;
   line-height: 1;
   font-family: "Pretendard-Regular";
+  overflow-x: hidden;
 }
 #wrap{
   width: 100%;
