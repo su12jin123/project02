@@ -17,7 +17,7 @@
             const progressContent = document.querySelector(".autoplay-progress span");
             var swiper = new Swiper(".mySwiper", {
                 spaceBetween: 30,
-                slidesOffsetBefore : -10,
+                slidesOffsetBefore: -10,
                 centeredSlides: false,
                 autoplay: {
                     delay: 2500,
@@ -39,8 +39,6 @@
                 }
             });
 
-            //.sec01 .inner .title02 li를 클릭하면
-            //li가 text-weight:'bold','color','#53593B'
             $('.sec01 .inner .title02 li').click(function () {
                 $('.sec01 .inner .title02 li').removeClass('on')
                 $(this).addClass('on')
@@ -49,7 +47,6 @@
                 $('.sec01 .inner .bg').eq($(this).index()).addClass('on')
             })
 
-            //let iconImage = $(this).find('img').attr('src')
             $('.icon').mouseenter(function () {
                 $('.icon').find('img').attr('src', 'img/hand.png')
             })
@@ -115,7 +112,7 @@
 
                 <div class="search">
                     <input type="text" placeholder="서두르지 않고 천천히 제로웨이스트">
-                    <button><img src="img/Search.png" alt=""></button>
+                    <button><img src="img/Search.png" alt="검색"></button>
                 </div><!-- search end -->
             </div><!-- inner end -->
         </nav>
@@ -126,9 +123,9 @@
                 <!-- Swiper -->
                 <div class="swiper mySwiper main">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="img/제로웨이스트.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/텀블러가격.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/닥터노아-칫솔.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/제로웨이스트.jpg" alt="메인비주얼"></div>
+                        <div class="swiper-slide"><img src="img/텀블러가격.jpg" alt="메인비주얼"></div>
+                        <div class="swiper-slide"><img src="img/닥터노아-칫솔.jpg" alt="메인비주얼"></div>
 
                         <!-- ------------------------------------------------------------------- -->
                     </div><!-- swiper-wrapper end -->
@@ -143,597 +140,593 @@
                         <span></span>
                     </div>
                 </div>
-                </div>
-                </div>
-                <!-- ------------------------------------------------------------------------- -->
+            </div>
+        </div>
+        <!-- ------------------------------------------------------------------------- -->
 
 
 
-                <section class="sec01">
-                    <div class="section">
-                        <div class="inner">
-                            <div class="title">
-                                <h2>브랜드 별, BEST Items</h2>
-                                <ul class="title02">
-                                    <li class="on">탄소창고</li>
-                                    <li>닥터노아</li>
-                                    <li>창대농원</li>
-                                    <li>샘크래프</li>
-                                    <li>나인아워즈</li>
-                                </ul><!-- title02 end -->
-                            </div><!-- title end -->
-
-                            <div class="bg on">
-                                <div class="img"><img src="img/cup.jpg" alt=""></div>
-                                <div class="title03">
-                                    <p>환경을 위한 소비의 시작</p>
-                                    <h3>탄소창고</h3>
-                                </div><!-- title 03 end -->
-
-                                <div class="items">
-                                    <div class="items1">
-                                        <div class="item item01">
-                                            <a href="#">
-                                                <div class="img">
-                                                    <img src="img/image1.png" alt="">
-                                                </div> <!-- img end -->
-                                                <div class="text">
-                                                    <p>CXP 제로 텀블러</p>
-                                                    <span>15,000원</span>
-                                                </div><!-- text end -->
-                                            </a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img">
-                                                <a href="#">
-                                                    <img src="img/image 9.png" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>CXP 목재 손편한 앞접시</p>
-                                                <span>16,500원</span>
-                                            </div><!-- text end -->
-                                            </a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/image 11 (1).png" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>CXP 목재 혀클리너</p>
-                                                <span>2,000원</span>
-                                            </div><!-- text end -->
-                                            </a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img"><a href="">
-                                                    <img src="img/image 12 (1).png" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>CXP 목재 비누받침</p>
-                                                <span>2,200원</span>
-                                            </div><!-- text end -->
-                                            </a>
-                                        </div><!-- item end -->
-                                    </div><!-- items1 -->
-
-                                    <div class="item item02">
-                                        <div class="img"><a href="#">
-                                                <img src="img/image 13.png" alt="">
-
-                                        </div> <!-- img end -->
-                                        <div class="text">
-                                            <p>CXP 사르르 브러시</p>
-                                            <span>7,500원</span>
-                                            </a>
-                                        </div><!-- text end -->
-                                    </div><!-- item end -->
-
-                                </div><!-- items end -->
-                            </div><!-- bg end -->
-
-                            <div class="bg">
-                                <div class="img"><img src="img/drbg.jpg" alt=""></div>
-                                <div class="title03">
-                                    <p>지속 가능한 제품을 만드는</p>
-                                    <h3>닥터노아</h3>
-                                </div><!-- title 03 end -->
-
-                                <div class="items">
-                                    <div class="items1">
-                                        <div class="item item01"><a href="#">
-                                                <div class="img">
-                                                    <img src="img/dr1.png" alt="">
-                                                </div> <!-- img end -->
-                                                <div class="text">
-                                                    <p>오비츠 자일리톨 고체치약</p>
-                                                    <span>5,900원</span>
-                                                </div><!-- text end -->
-                                            </a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/dr2.png" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>대나무 칫솔 케이스</p>
-                                                <span>5,500원</span>
-                                            </div><!-- text end --></a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/dr3.png" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>착 칫솔걸이</p>
-                                                <span>7,000원</span>
-                                            </div><!-- text end --></a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/dr4.png" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>마루 대나무 칫솔</p>
-                                                <span>3,400원</span>
-                                            </div><!-- text end --></a>
-                                        </div><!-- item end -->
-                                    </div><!-- items1 -->
-
-                                    <div class="item item02">
-                                        <div class="img"><a href="#">
-                                                <img src="img/dr5.png" alt="">
-                                        </div> <!-- img end -->
-                                        <div class="text">
-                                            <p>마루 불소 치약</p>
-                                            <span>6,800원</span>
-                                        </div><!-- text end --></a>
-                                    </div><!-- item end2222 -->
-
-                                </div><!-- items end -->
-                            </div><!-- bg end 2 -->
-                            <div class="bg">
-                                <div class="img"><img src="img/changbg.jpg" alt=""></div>
-                                <div class="title03">
-                                    <p>몽땅농부의 건강한 먹거리</p>
-                                    <h3>창대농원</h3>
-                                </div><!-- title 03 end -->
-
-                                <div class="items">
-                                    <div class="items1">
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/chang1.jpg" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>유기농 비트차 (80g)</p>
-                                                <span>12,000원</span>
-                                            </div><!-- text end --></a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/chang2.jpg" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>유기농 우엉차 (80g)</p>
-                                                <span>16,500원</span>
-                                            </div><!-- text end --></a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/chang3.jpg" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>유기농 돼지감자차</p>
-                                                <span>12,000원</span>
-                                            </div><!-- text end --></a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/chang4.jpg" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>유기농 작두콩차</p>
-                                                <span>10,000원</span>
-                                            </div><!-- text end --></a>
-                                        </div><!-- item end -->
-                                    </div><!-- items1 -->
-
-                                    <div class="item item02">
-                                        <div class="img">
-                                            <img src="img/chang5.jpg" alt="">
-                                        </div> <!-- img end -->
-                                        <div class="text">
-                                            <p>레몬밤 차</p>
-                                            <span>18,000원</span>
-                                        </div><!-- text end --></a>
-                                    </div><!-- item end -->
-
-                                </div><!-- items end -->
-                            </div><!-- bg end 3-->
-                            <div class="bg">
-                                <div class="img"><img src="img/sam_bg.jpg" alt=""></div>
-                                <div class="title03">
-                                    <p>사람과 자연에 해가 되지 않는</p>
-                                    <h3>샘크래프</h3>
-                                </div><!-- title 03 end -->
-
-                                <div class="items">
-                                    <div class="items1">
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/sam1.jpg" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>이그제틱 부쉬 퍼퓸 밤</p>
-                                                <span>12,000원</span>
-                                            </div><!-- text end --></a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/sam2.jpg" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>버터 솝</p>
-                                                <span>9,200원</span>
-                                            </div><!-- text end --></a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/sam3.jpg" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>오리진 밤</p>
-                                                <span>7,000원</span>
-                                            </div><!-- text end --></a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/sam4.jpg" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>핑크 약산성 5.5 샴푸바</p>
-                                                <span>16,000원</span>
-                                            </div><!-- text end --></a>
-                                        </div><!-- item end -->
-                                    </div><!-- items1 -->
-
-                                    <div class="item item02">
-                                        <div class="img"><a href="#">
-                                                <img src="img/sam5.jpg" alt="">
-                                        </div> <!-- img end -->
-                                        <div class="text">
-                                            <p>블랙 약산성 5.5 샴푸바</p>
-                                            <span>16,000원</span>
-                                        </div><!-- text end --></a>
-
-                                    </div><!-- item end -->
-
-                                </div><!-- items end -->
-                            </div><!-- bg end 4-->
-                            <div class="bg">
-                                <div class="img"><img src="img/ninebg.jpg" alt=""></div>
-                                <div class="title03">
-                                    <p>당신의 건강을 생각할 시간</p>
-                                    <h3>나인아워즈</h3>
-                                </div><!-- title 03 end -->
-
-                                <div class="items">
-                                    <div class="items1">
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/nine1.jpg" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>오트밀 퓨어 그레인 설거지바</p>
-                                                <span>7,900원</span>
-                                            </div><!-- text end -->
-                                            </a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/nine2.jpg" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>자몽 바디&핸드워시바 </p>
-                                                <span>9,900원</span>
-                                            </div><!-- text end -->
-                                            </a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/nine3.jpg" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>동백오일 실키 컨디셔너바</p>
-                                                <span>9,900원</span>
-                                            </div><!-- text end -->
-                                            </a>
-                                        </div><!-- item end -->
-
-                                        <div class="item item01">
-                                            <div class="img"><a href="#">
-                                                    <img src="img/nine4.jpg" alt="">
-                                            </div> <!-- img end -->
-                                            <div class="text">
-                                                <p>다시마 밸런싱 샴푸바</p>
-                                                <span>9,900원</span>
-                                            </div><!-- text end -->
-                                            </a>
-                                        </div><!-- item end -->
-                                    </div><!-- items1 -->
-
-                                    <div class="item item02">
-                                        <div class="img"><a href="#">
-                                                <img src="img/nine5.jpg" alt="">
-                                        </div> <!-- img end -->
-                                        <div class="text">
-                                            <p>프로폴리스 세럼팩</p>
-                                            <span>12,900원</span>
-                                        </div><!-- text end -->
-                                        </a>
-                                    </div><!-- item end -->
-
-                                </div><!-- items end -->
-                            </div><!-- bg end 5-->
-
-                        </div><!-- inner end -->
-                </section><!-- sec1 end -->
-
-
-                <!-- Swiper -->
-                <section class="sec2">
-                    <div class="inner">
-                        <div class="title">
-                            <h2>차차 자체제작 Items</h2>
-                            <p>더보기</p>
-                        </div>
-                        <div class="swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide list">
-                                    <div class="item"><a href="#">
-                                            <img src="img/item1.jpg" alt="">
-                                            <p>발리 프리미엄 라탄 미니 수납함</p>
-                                        </a>
-                                    </div><!-- item end -->
-                                </div><!-- swiper-slide list end -->
-
-                                <div class="swiper-slide list">
-                                    <div class="item"><a href="#">
-                                            <img src="img/item2.jpg" alt="">
-                                            <p>PLASTIC FREE 코코넛 팟브러쉬</p>
-                                        </a>
-                                    </div><!-- item end -->
-                                </div><!-- swiper-slide list end -->
-
-                                <div class="swiper-slide list">
-                                    <div class="item">
-                                        <a href="#">
-                                            <img src="img/item3.jpg" alt="">
-                                            <p>친환경소재 밀짚 도시락통 식기세트</p>
-                                        </a>
-                                    </div><!-- item end -->
-                                </div><!-- swiper-slide list end -->
-                                <div class="swiper-slide list">
-                                    <div class="item">
-                                        <a href="#">
-                                            <img src="img/cha1.jpg" alt="">
-                                            <p>티크우드 잼 버터 나이프</p>
-                                        </a>
-                                    </div><!-- item end -->
-                                </div><!-- swiper-slide list end -->
-                                <div class="swiper-slide list">
-                                    <div class="item">
-                                        <a href="#">
-                                            <img src="img/cha2.jpg" alt="">
-                                            <p>티크우드 미니 티스푼</p>
-                                        </a>
-                                    </div><!-- item end -->
-                                </div><!-- swiper-slide list end -->
-                                <div class="swiper-slide list">
-                                    <div class="item">
-                                        <a href="#">
-                                            <img src="img/cha3.jpg" alt="">
-                                            <p>데이지 텀블러 드링크백</p>
-                                        </a>
-                                    </div><!-- item end -->
-                                </div><!-- swiper-slide list end -->
-                                <div class="swiper-slide list">
-                                    <div class="item">
-                                        <a href="#">
-                                            <img src="img/cha4.jpg" alt="">
-                                            <p>대나무 칫솔 스탠드</p>
-                                        </a>
-                                    </div><!-- item end -->
-                                </div><!-- swiper-slide list end -->
-                                <div class="swiper-slide list">
-                                    <div class="item">
-                                        <a href="#">
-                                            <img src="img/cha5.jpg" alt="">
-                                            <p>밀짚 커트러리 세트 3color</p>
-                                        </a>
-                                    </div><!-- item end -->
-                                </div><!-- swiper-slide list end -->
-                                <div class="swiper-slide list">
-                                    <div class="item">
-                                        <a href="#">
-                                            <img src="img/cha6.jpg" alt="">
-                                            <p>가위형 주방집게 2size</p>
-                                        </a>
-                                    </div><!-- item end -->
-                                </div><!-- swiper-slide list end -->
-                                <div class="swiper-slide list">
-                                    <div class="item">
-                                        <a href="#">
-                                            <img src="img/cha7.jpg" alt="">
-                                            <p>그물 장바구니백 4color</p>
-                                        </a>
-                                    </div><!-- item end -->
-                                </div><!-- swiper-slide list end -->
-
-
-
-                                <!-- <div class="swiper-slide list">Resize me!</div> -->
-                            </div><!-- swiper-wrapper end -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div><!-- swiper end -->
-                        <div class="swiper-pagination"></div>
-                    </div><!-- inner end -->
-                </section><!-- sec2 end -->
-
-
-                <div class="sec3">
-                    <div class="inner">
-                        <div class="title">
-                            <h2>INSTAGRAM</h2>
-                            <p>SNS로 생생하게 만나는 차차 소식</p>
-                        </div><!-- title end -->
-
-                        <div class="cont">
-                            <div><a href="#">
-                                    <img src="img/insta.jpg" alt="">
-                                    <p>하늘이 잘자☁️🤍<br> #제로웨이스트차차</p>
-                                </a>
-                            </div>
-                            <div><a href="#">
-                                    <img src="img/insta1.jpg" alt="">
-                                    <p>오늘 증-말 덥죠🥶 <br>텀블러 챙겨서 <br>시원한 음료 드시러 <br>놀러 오세요!</p>
-                                </a>
-                            </div>
-                            <div><a href="#">
-                                    <img src="img/insta2.jpg" alt="">
-                                    <p>앉아! 손! 돌아! <br>
-                                        모두 할 수 있는 <br> 똑똑한 심바지만<br> 멍푸치노 앞에서 <br>기다리긴 힘든걸요😢</p>
-                                </a>
-                            </div>
-                            <div><a href="#">
-                                    <img src="img/insta3.jpg" alt="">
-                                    <p>일회용품의 사용을 최소한 하고자 테이크아웃 시 사용되는 용품들을 셀프바에서 직접 골라 가져가실 수 있도록 준비해놓았습니다.</p>
-                                </a>
-                            </div>
-                            <div><a href="#">
-                                    <img src="img/insta4.jpg" alt="">
-                                    <p>일찍 나와 깨끗하게 <br>청소하고 오픈하기 전부터 찾아와주시는 고객님들 보니 감사한 마음 가득한 금요일입니다!</p>
-                                </a>
-                            </div>
-                            <div><a href="#">
-                                    <img src="img/insta5.jpg" alt="">
-                                    <p>7월의 첫 뭉뭉이 손님<br> 몽실몽실 하늘이 ☁️<br> 7월에는 모두 행복한 일만 <br>가득하시길 바라요.</p>
-                                </a>
-                            </div>
-                            <div><a href="#">
-                                    <img src="img/insta6.jpg" alt="">
-                                    <p>오늘의 첫 손님- <br>눈이 너무 예쁜 <br>착하고 의젓한 황금이🏅<br>우리 다음에 볼땐 <br>더 친해져보자 또 놀루와🐾</p>
-                                </a>
-                            </div>
-                            <div><a href="#">
-                                    <img src="img/insta7.jpg" alt="">
-                                    <p>오늘의 첫 주문은 <br>폭신폭신 <br>블루베리 프렌치 토스트 <br>🫐🍞</p>
-                                </a>
-                            </div>
-                            <div><a href="#">
-                                    <img src="img/insta8.jpg" alt="">
-                                    <p>안녕하세요 <br>오늘의 브이로그는 <br>차차 누나가 만들어 준 <br>멍푸치노를 먹어보겠습니꿍 꿍꿍 꿍꿍 꿍 ☕️🐕🐾</p>
-                                </a>
-                            </div>
-                            <div><a href="">
-                                    <img src="img/insta9.jpg" alt="">
-                                    <p>러블리한 하코 사장님과<br> 여름이 덕에 <br>금요일도 행복하게 <br>오픈했습니다- 🤍</p>
-                                </a>
-                            </div>
-                        </div><!-- cont end -->
-                    </div><!-- inner end -->
-                </div><!-- sec3 end -->
-
-                <div class="icon">
-                    <a href="#">
-                        <img src="img/hand1.png" alt="">
-                    </a>
-                </div>
-            </div><!-- section end -->
-
-            <footer>
+        <section class="sec01">
+            <div class="section">
                 <div class="inner">
-                    <ul class="list">
-                        <li><a href="#">이용약관</a></li>
-                        <li><a href="#">개인정보처리방침</a></li>
-                        <li><a href="#">고객센터</a></li>
-                        <li><a href="#">이용안내</a></li>
-                    </ul>
-                    <div>
-                        <p>제로웨이스트 차차</p>
-                        <ul>
-                            <li>대표 : 변채원</li>
-                            <li>개인정보관리책임자: 변채원</li>
-                            <li>Tel: 070-4120-1710</li>
-                            <li>이메일: chacha_official@naver.com</li>
-                        </ul>
+                    <div class="title">
+                        <h2>브랜드 별, BEST Items</h2>
+                        <ul class="title02">
+                            <li class="on">탄소창고</li>
+                            <li>닥터노아</li>
+                            <li>창대농원</li>
+                            <li>샘크래프</li>
+                            <li>나인아워즈</li>
+                        </ul><!-- title02 end -->
+                    </div><!-- title end -->
 
-                        <p>주소: 경기 고양시 일산동구 일산로394번길 15 1층 차차 </p>
-                        <p>사업자등록번호: 151-72-00362 </p>
-                        <p>통신판매: 2021-고양일산서-1711</p>
-                        <span>copyright ⓒ 2021 제로웨이스트 차차 all rights resvered</span>
+                    <div class="bg on">
+                        <div class="img"><img src="img/cup.jpg" alt="배경이미지"></div>
+                        <div class="title03">
+                            <p>환경을 위한 소비의 시작</p>
+                            <h3>탄소창고</h3>
+                        </div><!-- title 03 end -->
 
-                        <a href="#"><img src="img/logo.png" alt=""></a>
-                    </div>
+                        <div class="items">
+                            <div class="items1">
+                                <div class="item item01">
+                                    <a href="#">
+                                        <div class="img">
+                                            <img src="img/image1.png" alt="상품">
+                                        </div> <!-- img end -->
+                                        <div class="text">
+                                            <p>CXP 제로 텀블러</p>
+                                            <span>15,000원</span>
+                                        </div><!-- text end -->
+                                    </a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img">
+                                        <a href="#">
+                                            <img src="img/image 9.png" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>CXP 목재 손편한 앞접시</p>
+                                        <span>16,500원</span>
+                                    </div><!-- text end -->
+                                    </a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/image 11 (1).png" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>CXP 목재 혀클리너</p>
+                                        <span>2,000원</span>
+                                    </div><!-- text end -->
+                                    </a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img"><a href="">
+                                            <img src="img/image 12 (1).png" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>CXP 목재 비누받침</p>
+                                        <span>2,200원</span>
+                                    </div><!-- text end -->
+                                    </a>
+                                </div><!-- item end -->
+                            </div><!-- items1 -->
+
+                            <div class="item item02">
+                                <div class="img"><a href="#">
+                                        <img src="img/image 13.png" alt="상품">
+
+                                </div> <!-- img end -->
+                                <div class="text">
+                                    <p>CXP 사르르 브러시</p>
+                                    <span>7,500원</span>
+                                    </a>
+                                </div><!-- text end -->
+                            </div><!-- item end -->
+
+                        </div><!-- items end -->
+                    </div><!-- bg end -->
+
+                    <div class="bg">
+                        <div class="img"><img src="img/drbg.jpg" alt="배경이미지"></div>
+                        <div class="title03">
+                            <p>지속 가능한 제품을 만드는</p>
+                            <h3>닥터노아</h3>
+                        </div><!-- title 03 end -->
+
+                        <div class="items">
+                            <div class="items1">
+                                <div class="item item01"><a href="#">
+                                        <div class="img">
+                                            <img src="img/dr1.png" alt="상품">
+                                        </div> <!-- img end -->
+                                        <div class="text">
+                                            <p>오비츠 자일리톨 고체치약</p>
+                                            <span>5,900원</span>
+                                        </div><!-- text end -->
+                                    </a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/dr2.png" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>대나무 칫솔 케이스</p>
+                                        <span>5,500원</span>
+                                    </div><!-- text end --></a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/dr3.png" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>착 칫솔걸이</p>
+                                        <span>7,000원</span>
+                                    </div><!-- text end --></a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/dr4.png" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>마루 대나무 칫솔</p>
+                                        <span>3,400원</span>
+                                    </div><!-- text end --></a>
+                                </div><!-- item end -->
+                            </div><!-- items1 -->
+
+                            <div class="item item02">
+                                <div class="img"><a href="#">
+                                        <img src="img/dr5.png" alt="상품">
+                                </div> <!-- img end -->
+                                <div class="text">
+                                    <p>마루 불소 치약</p>
+                                    <span>6,800원</span>
+                                </div><!-- text end --></a>
+                            </div><!-- item end2222 -->
+
+                        </div><!-- items end -->
+                    </div><!-- bg end 2 -->
+                    <div class="bg">
+                        <div class="img"><img src="img/changbg.jpg" alt="배경이미지"></div>
+                        <div class="title03">
+                            <p>몽땅농부의 건강한 먹거리</p>
+                            <h3>창대농원</h3>
+                        </div><!-- title 03 end -->
+
+                        <div class="items">
+                            <div class="items1">
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/chang1.jpg" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>유기농 비트차 (80g)</p>
+                                        <span>12,000원</span>
+                                    </div><!-- text end --></a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/chang2.jpg" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>유기농 우엉차 (80g)</p>
+                                        <span>16,500원</span>
+                                    </div><!-- text end --></a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/chang3.jpg" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>유기농 돼지감자차</p>
+                                        <span>12,000원</span>
+                                    </div><!-- text end --></a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/chang4.jpg" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>유기농 작두콩차</p>
+                                        <span>10,000원</span>
+                                    </div><!-- text end --></a>
+                                </div><!-- item end -->
+                            </div><!-- items1 -->
+
+                            <div class="item item02">
+                                <div class="img">
+                                    <img src="img/chang5.jpg" alt="상품">
+                                </div> <!-- img end -->
+                                <div class="text">
+                                    <p>레몬밤 차</p>
+                                    <span>18,000원</span>
+                                </div><!-- text end --></a>
+                            </div><!-- item end -->
+
+                        </div><!-- items end -->
+                    </div><!-- bg end 3-->
+                    <div class="bg">
+                        <div class="img"><img src="img/sam_bg.jpg" alt="배경이미지"></div>
+                        <div class="title03">
+                            <p>사람과 자연에 해가 되지 않는</p>
+                            <h3>샘크래프</h3>
+                        </div><!-- title 03 end -->
+
+                        <div class="items">
+                            <div class="items1">
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/sam1.jpg" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>이그제틱 부쉬 퍼퓸 밤</p>
+                                        <span>12,000원</span>
+                                    </div><!-- text end --></a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/sam2.jpg" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>버터 솝</p>
+                                        <span>9,200원</span>
+                                    </div><!-- text end --></a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/sam3.jpg" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>오리진 밤</p>
+                                        <span>7,000원</span>
+                                    </div><!-- text end --></a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/sam4.jpg" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>핑크 약산성 5.5 샴푸바</p>
+                                        <span>16,000원</span>
+                                    </div><!-- text end --></a>
+                                </div><!-- item end -->
+                            </div><!-- items1 -->
+
+                            <div class="item item02">
+                                <div class="img"><a href="#">
+                                        <img src="img/sam5.jpg" alt="상품">
+                                </div> <!-- img end -->
+                                <div class="text">
+                                    <p>블랙 약산성 5.5 샴푸바</p>
+                                    <span>16,000원</span>
+                                </div><!-- text end --></a>
+
+                            </div><!-- item end -->
+
+                        </div><!-- items end -->
+                    </div><!-- bg end 4-->
+                    <div class="bg">
+                        <div class="img"><img src="img/ninebg.jpg" alt="배경이미지"></div>
+                        <div class="title03">
+                            <p>당신의 건강을 생각할 시간</p>
+                            <h3>나인아워즈</h3>
+                        </div><!-- title 03 end -->
+
+                        <div class="items">
+                            <div class="items1">
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/nine1.jpg" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>오트밀 퓨어 그레인 설거지바</p>
+                                        <span>7,900원</span>
+                                    </div><!-- text end -->
+                                    </a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/nine2.jpg" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>자몽 바디&핸드워시바 </p>
+                                        <span>9,900원</span>
+                                    </div><!-- text end -->
+                                    </a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/nine3.jpg" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>동백오일 실키 컨디셔너바</p>
+                                        <span>9,900원</span>
+                                    </div><!-- text end -->
+                                    </a>
+                                </div><!-- item end -->
+
+                                <div class="item item01">
+                                    <div class="img"><a href="#">
+                                            <img src="img/nine4.jpg" alt="상품">
+                                    </div> <!-- img end -->
+                                    <div class="text">
+                                        <p>다시마 밸런싱 샴푸바</p>
+                                        <span>9,900원</span>
+                                    </div><!-- text end -->
+                                    </a>
+                                </div><!-- item end -->
+                            </div><!-- items1 -->
+
+                            <div class="item item02">
+                                <div class="img"><a href="#">
+                                        <img src="img/nine5.jpg" alt="상품">
+                                </div> <!-- img end -->
+                                <div class="text">
+                                    <p>프로폴리스 세럼팩</p>
+                                    <span>12,900원</span>
+                                </div><!-- text end -->
+                                </a>
+                            </div><!-- item end -->
+
+                        </div><!-- items end -->
+                    </div><!-- bg end 5-->
+
                 </div><!-- inner end -->
-            </footer>
+        </section><!-- sec1 end -->
 
 
-        </div><!-- #wrap end -->
+        <!-- Swiper -->
+        <section class="sec2">
+            <div class="inner">
+                <div class="title">
+                    <h2>차차 자체제작 Items</h2>
+                    <p>더보기</p>
+                </div>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide list">
+                            <div class="item"><a href="#">
+                                    <img src="img/item1.jpg" alt="상품">
+                                    <p>발리 프리미엄 라탄 미니 수납함</p>
+                                </a>
+                            </div><!-- item end -->
+                        </div><!-- swiper-slide list end -->
 
-        <!-- Swiper JS -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+                        <div class="swiper-slide list">
+                            <div class="item"><a href="#">
+                                    <img src="img/item2.jpg" alt="상품">
+                                    <p>PLASTIC FREE 코코넛 팟브러쉬</p>
+                                </a>
+                            </div><!-- item end -->
+                        </div><!-- swiper-slide list end -->
 
-        <!-- Initialize Swiper -->
-        <script>
-            var swiper = new Swiper('.swiper', {
-                slidesPerView: 3,
-                slidesPerGroup : 3,
-                loopFillGroupWithBlank : true,
-                direction: getDirection(),
-                slidesOffsetBefore : -480,
-                centeredSlides: true,
-                autoplay: {
-                    delay: 2500,
-                    disableOnInteraction: false,
+                        <div class="swiper-slide list">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="img/item3.jpg" alt="상품">
+                                    <p>친환경소재 밀짚 도시락통 식기세트</p>
+                                </a>
+                            </div><!-- item end -->
+                        </div><!-- swiper-slide list end -->
+                        <div class="swiper-slide list">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="img/cha1.jpg" alt="상품">
+                                    <p>티크우드 잼 버터 나이프</p>
+                                </a>
+                            </div><!-- item end -->
+                        </div><!-- swiper-slide list end -->
+                        <div class="swiper-slide list">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="img/cha2.jpg" alt="상품">
+                                    <p>티크우드 미니 티스푼</p>
+                                </a>
+                            </div><!-- item end -->
+                        </div><!-- swiper-slide list end -->
+                        <div class="swiper-slide list">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="img/cha3.jpg" alt="상품">
+                                    <p>데이지 텀블러 드링크백</p>
+                                </a>
+                            </div><!-- item end -->
+                        </div><!-- swiper-slide list end -->
+                        <div class="swiper-slide list">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="img/cha4.jpg" alt="상품">
+                                    <p>대나무 칫솔 스탠드</p>
+                                </a>
+                            </div><!-- item end -->
+                        </div><!-- swiper-slide list end -->
+                        <div class="swiper-slide list">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="img/cha5.jpg" alt="상품">
+                                    <p>밀짚 커트러리 세트 3color</p>
+                                </a>
+                            </div><!-- item end -->
+                        </div><!-- swiper-slide list end -->
+                        <div class="swiper-slide list">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="img/cha6.jpg" alt="상품">
+                                    <p>가위형 주방집게 2size</p>
+                                </a>
+                            </div><!-- item end -->
+                        </div><!-- swiper-slide list end -->
+                        <div class="swiper-slide list">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="img/cha7.jpg" alt="상품">
+                                    <p>그물 장바구니백 4color</p>
+                                </a>
+                            </div><!-- item end -->
+                        </div><!-- swiper-slide list end -->
+                    </div><!-- swiper-wrapper end -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div><!-- swiper end -->
+                <div class="swiper-pagination"></div>
+            </div><!-- inner end -->
+        </section><!-- sec2 end -->
+
+
+        <div class="sec3">
+            <div class="inner">
+                <div class="title">
+                    <h2>INSTAGRAM</h2>
+                    <p>SNS로 생생하게 만나는 차차 소식</p>
+                </div><!-- title end -->
+
+                <div class="cont">
+                    <div><a href="#">
+                            <img src="img/insta.jpg" alt="인스타">
+                            <p>하늘이 잘자☁️🤍<br> #제로웨이스트차차</p>
+                        </a>
+                    </div>
+                    <div><a href="#">
+                            <img src="img/insta1.jpg" alt="인스타">
+                            <p>오늘 증-말 덥죠🥶 <br>텀블러 챙겨서 <br>시원한 음료 드시러 <br>놀러 오세요!</p>
+                        </a>
+                    </div>
+                    <div><a href="#">
+                            <img src="img/insta2.jpg" alt="인스타">
+                            <p>앉아! 손! 돌아! <br>
+                                모두 할 수 있는 <br> 똑똑한 심바지만<br> 멍푸치노 앞에서 <br>기다리긴 힘든걸요😢</p>
+                        </a>
+                    </div>
+                    <div><a href="#">
+                            <img src="img/insta3.jpg" alt="인스타">
+                            <p>일회용품의 사용을 최소한 하고자 테이크아웃 시 사용되는 용품들을 셀프바에서 직접 골라 가져가실 수 있도록 준비해놓았습니다.</p>
+                        </a>
+                    </div>
+                    <div><a href="#">
+                            <img src="img/insta4.jpg" alt="인스타">
+                            <p>일찍 나와 깨끗하게 <br>청소하고 오픈하기 전부터 찾아와주시는 고객님들 보니 감사한 마음 가득한 금요일입니다!</p>
+                        </a>
+                    </div>
+                    <div><a href="#">
+                            <img src="img/insta5.jpg" alt="인스타">
+                            <p>7월의 첫 뭉뭉이 손님<br> 몽실몽실 하늘이 ☁️<br> 7월에는 모두 행복한 일만 <br>가득하시길 바라요.</p>
+                        </a>
+                    </div>
+                    <div><a href="#">
+                            <img src="img/insta6.jpg" alt="인스타">
+                            <p>오늘의 첫 손님- <br>눈이 너무 예쁜 <br>착하고 의젓한 황금이🏅<br>우리 다음에 볼땐 <br>더 친해져보자 또 놀루와🐾</p>
+                        </a>
+                    </div>
+                    <div><a href="#">
+                            <img src="img/insta7.jpg" alt="인스타">
+                            <p>오늘의 첫 주문은 <br>폭신폭신 <br>블루베리 프렌치 토스트 <br>🫐🍞</p>
+                        </a>
+                    </div>
+                    <div><a href="#">
+                            <img src="img/insta8.jpg" alt="인스타">
+                            <p>안녕하세요 <br>오늘의 브이로그는 <br>차차 누나가 만들어 준 <br>멍푸치노를 먹어보겠습니꿍 꿍꿍 꿍꿍 꿍 ☕️🐕🐾</p>
+                        </a>
+                    </div>
+                    <div><a href="">
+                            <img src="img/insta9.jpg" alt="인스타">
+                            <p>러블리한 하코 사장님과<br> 여름이 덕에 <br>금요일도 행복하게 <br>오픈했습니다- 🤍</p>
+                        </a>
+                    </div>
+                </div><!-- cont end -->
+            </div><!-- inner end -->
+        </div><!-- sec3 end -->
+
+        <div class="icon">
+            <a href="#">
+                <img src="img/hand1.png" alt="아이콘">
+            </a>
+        </div>
+    </div><!-- section end -->
+
+    <footer>
+        <div class="inner">
+            <ul class="list">
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">이용안내</a></li>
+            </ul>
+            <div>
+                <p>제로웨이스트 차차</p>
+                <ul>
+                    <li>대표 : 변채원</li>
+                    <li>개인정보관리책임자: 변채원</li>
+                    <li>Tel: 070-4120-1710</li>
+                    <li>이메일: chacha_official@naver.com</li>
+                </ul>
+
+                <p>주소: 경기 고양시 일산동구 일산로394번길 15 1층 차차 </p>
+                <p>사업자등록번호: 151-72-00362 </p>
+                <p>통신판매: 2021-고양일산서-1711</p>
+                <span>copyright ⓒ 2021 제로웨이스트 차차 all rights resvered</span>
+
+                <a href="#"><img src="img/logo.png" alt="푸터로고"></a>
+            </div>
+        </div><!-- inner end -->
+    </footer>
+
+
+    </div><!-- #wrap end -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper', {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+            loopFillGroupWithBlank: true,
+            direction: getDirection(),
+            slidesOffsetBefore: -480,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            on: {
+                resize: function () {
+                    swiper.changeDirection(getDirection());
                 },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                on: {
-                    resize: function () {
-                        swiper.changeDirection(getDirection());
-                    },
-                },
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                },
-            });
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
 
-            function getDirection() {
-                var windowWidth = window.innerWidth;
-                var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+        function getDirection() {
+            var windowWidth = window.innerWidth;
+            var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
 
-                return direction;
-            }
-        </script>
+            return direction;
+        }
+    </script>
 
 </body>
 
