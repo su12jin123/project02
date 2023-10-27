@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: "Pretendard-Regular";
-  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -39,11 +40,10 @@ body {
   font-family: "Pretendard-Regular";
   overflow-x: hidden;
 }
-#wrap{
+#wrap {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  
 }
 header {
   width: 1920px;
@@ -73,12 +73,12 @@ header .inner .login {
 
 header .inner .login li {
   display: inline-block;
-  margin-left: 30px;
-  font-size: 20px;
+  margin-left: 20px;
+  font-size: 18px;
 }
 
 header .inner .login li:hover {
-  font-weight: 600;
+  text-decoration: underline;
 }
 
 /* ----------------------------header👌----------------------------------- */
@@ -120,6 +120,7 @@ nav .inner .menu .depth02 li {
   width: 166px;
   text-align: center;
   display: none;
+  cursor: pointer;
 }
 
 nav .inner .menu > li:hover {
@@ -164,6 +165,10 @@ nav .inner .search input {
   outline: none;
 }
 
+nav .inner .search input::placeholder {
+  font-size: 18px;
+}
+
 nav .inner .search button {
   position: absolute;
   top: 50%;
@@ -176,7 +181,7 @@ nav .inner .search button {
 
 /* --------------------nav👌----------------------------------------- */
 
-.main_visual{
+.main_visual {
   width: 1920px;
   margin: 0 auto;
 }
@@ -186,8 +191,13 @@ nav .inner .search button {
 }
 
 .main_visual .inner .main {
-  width: 100%;
+  /*  width: 100%; */
   height: 100%;
+  object-fit: cover;
+}
+
+.main_visual .inner .main div img {
+  object-fit: cover;
 }
 
 .swiper-button-prev {
@@ -233,17 +243,18 @@ nav .inner .search button {
 .swiper-button-prev {
   display: none;
 }
-.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction
-{
- top: 75%
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  top: 75%;
 }
-.swiper-pagination-bullet{
-  background:#fff
+.swiper-pagination-bullet {
+  background: #fff;
 }
-
 
 /* ------------------------------------------------------------------------- */
-.sec01{
+.sec01 {
   width: 1920px;
   margin: 0 auto;
 }
@@ -266,16 +277,16 @@ nav .inner .search button {
 }
 
 .sec01 .inner .title .title02 {
-  width: 727px;
+  width: 500px;
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 16px;
   cursor: pointer;
 }
 
 .sec01 .inner .title .title02 li {
   display: inline-block;
-  font-size: 25px;
+  font-size: 20px;
   color: #a2a694;
   position: relative;
 }
@@ -287,12 +298,12 @@ nav .inner .search button {
 
 .sec01 .inner .title .title02 li::before {
   content: "";
-  width: 1px;
+  width: 2px;
   height: 25px;
   display: block;
   position: absolute;
   top: 8px;
-  right: -30px;
+  right: -18px;
   background-color: #a2a69496;
   z-index: 99;
 }
@@ -303,7 +314,7 @@ nav .inner .search button {
 
 .sec01 .inner .bg {
   width: 100%;
-  height: 648px;
+  height: 620px;
   position: relative;
   margin-top: 70px;
   display: none;
@@ -312,7 +323,6 @@ nav .inner .search button {
 
 .sec01 .inner .bg.on {
   display: block;
-  
 }
 
 .sec01 .inner .bg .img {
@@ -451,10 +461,9 @@ transition: 8s;
 .sec01 .inner .bg .items .item:hover .text p {
   font-weight: 600;
 }
-.sec2{
+.sec2 {
   width: 1920px;
   margin: 0 auto;
-
 }
 .sec2 .inner {
   width: 1440px;
@@ -558,14 +567,14 @@ transition: 8s;
 }
 
 /* --------------------------🙌🙌sec3🙌🙌---------------------------- */
-.sec3{
+.sec3 {
   width: 1920px;
   margin: 0 auto;
-
 }
 .sec3 .inner {
   width: 1440px;
   margin: 0 auto;
+  position: relative;
 }
 
 .sec3 .inner .title h2 {
@@ -578,7 +587,7 @@ transition: 8s;
 .sec3 .inner .title p {
   font-size: 20px;
   color: #a2a694;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .sec3 .inner .cont {
@@ -750,12 +759,48 @@ footer .inner div span {
   background: #ffffff;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-  top:76%;
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  top: 76%;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
   height: 20px;
 }
+
+.lorem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: tnwls 2s infinite normal linear;
+}
+@keyframes tnwls {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* .cont07 figure {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  opacity: 0.2;
+  animation: circle07 20s infinite normal linear;
+}
+@keyframes circle07 {
+  0% {
+      transform: rotate(0);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+} */
